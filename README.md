@@ -5,6 +5,15 @@
 //It also saves overlay images showing the bacteria which have been detected.
 //See "Supplementary Information" file for details on how to run and implement the macro.
 
-//Created by Sophie Mountcastle (sem093@bham.ac.uk) and Nina Vyas (n.vyas@bham.ac.uk)
-//University of Birmingham, Edgbaston, B15 2TT, UK
-//For queries please contact Dr Sarah Kuehne (s.a.kuehne@bham.ac.uk)
+## Original Authors
+//Sophie Mountcastle (sem093@bham.ac.uk) and Nina Vyas (n.vyas@bham.ac.uk)
+//University of Birmingham, UK
+//For queries related to the original code, please contact Dr. Sarah Kuehne (s.a.kuehne@bham.ac.uk).
+
+## Modifications by Tinatini Tchatchiashvili
+//In this fork, I have made the following modifications:
+//Updated channel analysis and protocol to work with **Calcein AM (green) and TMA-DPH (blue)** stains for metabolic activity and membrane integrity.
+//The original (SYTO9/PI) and modified (CAM/TMA-DPH) versions of the code now output the **number of stained pixels** instead of percentage values. 
+
+//For questions about these modifications, feel free to contact me (Tinatini.tchatchiashvili@med.uni-jena.de)
+//Jena University Hospital, Am Klinikum 1, 07747 Jena, Germany
